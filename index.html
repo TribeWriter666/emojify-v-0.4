@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--   <!-- Google tag (gtag.js) -->
+  <!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-J7PQVQMCTT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-J7PQVQMCTT'); -->
+  <!--   </script> -->
+  <meta charset="utf-8">
+  <title>Emoji Animation</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="app">
+    <canvas id="canvas"></canvas>
+    <div class="container">
+
+      <! -- TESTING -->
+
+
+        <! -- TESTING -->
+
+          <div class="top-container">
+            <button id="reset-button">*ReSeT*</button>
+            <div class="button-container">
+              <button id="background-color-button">Color</button>
+              <div class="color-list"></div>
+            </div>
+            <div class="input-container">
+              <input id="emoji-input" type="text" value="🙃">
+              <button id="emoji-list-button">👻</button>
+              <div class="emoji-list">
+              </div>
+            </div>
+          </div>
+          <button id="add-button">Add</button>
+          <button id="animate-button">Start</button>
+    </div>
+
+    <div class="container">
+      <button id="remove-last-button">Remove Last</button>
+      <button id="undo-button">Undo</button>
+      <button id="change-direction-button">Reverse</button>
+      <button id="change-direction-button-all">Reverse All</button>
+      <button id="screenshot-button">Capture</button>
+      <button id="record-button">Rec.</button>
+    </div>
+    <div class="container">
+      <div class="toggle-container">
+        <label class="random-checkbox">Emojify!</label>
+        <label class="switch">
+          <input type="checkbox" id="random-checkbox">
+          <span class="slider round"></span>
+        </label>
+        <button id="slow-down-button">Slower</button>
+        <button id="speed-up-button">Faster</button>
+        <button id="decrease-size-all-button">Size -</button>
+        <button id="increase-size-all-button">Size +</button>
+        <div class="toggle-container">
+          <label class="label">Dark:</label>
+          <label class="switch">
+            <input type="checkbox" id="dark-mode-toggle" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
